@@ -1,19 +1,56 @@
-p {
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins/Poppins-Light.ttf);
+  }
 
+* {
+    margin: 0;
+    font-family: Poppins;
 }
 
-#one {
-    color: red;
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
+    height: 164px;
 }
 
-#two {
-    color: rgb(200, 200, 200)
+.navtext > a {
+    background-image: linear-gradient(rgb(103 7 43), rgb(129 4 50));
+    height: 65px;
+    align-items: center;
+    transition: .2s;
+    display: flex;
+    color: white;
+    width: 275px;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 48px;
 }
 
-#three {
-    color: blue;
+.navtext > a:hover {
+    filter: brightness(75%);
+    border-radius: 20px;
 }
 
-img {
+#trionimage {
     width: 100px;
+    transition: .2s;
+}
+
+#trionimage:hover {
+    width: 100px;
+    filter: brightness(50%);
+}
+
+.svg {
+    height: 50px;
+    transition: .2s;
+}
+
+.svg:hover {
+    filter: brightness(50%);
 }
