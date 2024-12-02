@@ -1,0 +1,12 @@
+ul{
+    list-style:none;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#CART{
+    width:10px;
+}
