@@ -1,0 +1,108 @@
+/* Nav and footer end */
+
+/* font imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: Poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
+    height: 164px;
+}
+
+.navtext > a {
+    background-image: linear-gradient(rgb(103 7 43), rgb(129 4 50));
+    height: 65px;
+    align-items: center;
+    transition: .2s;
+    display: flex;
+    color: white;
+    width: 275px;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 48px;
+}
+
+.navtext > a:hover {
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+
+#trionimage {
+    width: 100px;
+    transition: .2s;
+}
+
+#trionimage:hover {
+    width: 100px;
+    filter: brightness(50%);
+}
+
+.svg {
+    height: 50px;
+    transition: .2s;
+}
+
+.svg:hover {
+    filter: brightness(50%);
+}
+
+footer {
+    margin-top: auto;
+    background-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin: 0%;
+    color:#ffffff;
+    min-width: 860px;
+}
+
+div#links { /* holds the boxes of links */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px;
+    margin: auto; 
+    max-width: 1200px;
+}
+
+section.footercontent { /* holds the actual links */
+    width: 480px;
+    height: auto;
+    padding: 20px;
+    margin: 5px; 
+    min-width: 400px;
+    text-align: left;
+}
+
+.footercontent > a {
+    color: rgb(0, 128, 255);
+}
+
+.footercontent > a:visited {
+    color: rgb(255, 0, 255);
+}
+
+/* Nav and footer end */
+
+
+
+/* FABIAN */
+
+/* FABIAN END */
+
+
+
+
+/* ADAM */
+
+/* ADAM END */
