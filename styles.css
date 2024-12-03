@@ -110,18 +110,31 @@ section.footercontent { /* holds the actual links */
 
 
 /* FABIAN */
-#account-pages {
+#account-background {
+    background-color: #d9d9d9;
+}
 
+.accountpages {
+    
+}
+
+.textpagecolor {
+    color: black;
 }
 
 #account-signin {
+    
+}
+
+#create-account {
 
 }
 
-#create-account
-
-.sign-in {
-    background-color: red;
+.account-buttons {
+    background-color: #780530; 
+    border-color: #780530;
+    border-radius: 10px;
+    border-style: solid;
 }
 /* FABIAN END */
 
