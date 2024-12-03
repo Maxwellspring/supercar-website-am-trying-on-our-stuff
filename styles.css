@@ -103,7 +103,13 @@ section.footercontent { /* holds the actual links */
 
 /* CONNOR */
     
-    /* yeeeee */
+#about-us-container {
+    display: flexbox;
+}
+
+.about-us-images {
+    display: flex;
+}
 
 /* CONNOR END */
 
