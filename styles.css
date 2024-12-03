@@ -128,5 +128,10 @@ section.footercontent { /* holds the actual links */
 /* ADAM */
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
+    
 }
+#Whiteshirtgirl{
+    mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
+}
+
 /* ADAM END */
