@@ -20,6 +20,7 @@ nav {
     align-items: center;
     background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
     height: 164px;
+    min-width: 1302.41px;
 }
 
 .navtext > a {
@@ -103,12 +104,20 @@ section.footercontent { /* holds the actual links */
 
 /* CONNOR */
     
-#about-us-container {
-    display: flexbox;
+#about-us-container > div > img {
+    width: 200px;
 }
 
-.about-us-images {
+#about-us-container {
     display: flex;
+    flex-direction: row;
+}
+
+.about-us-smaller-images {
+
+    border-width: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* CONNOR END */
