@@ -102,6 +102,50 @@ section.footercontent { /* holds the actual links */
 
 
 
+/* image gradient effect  */
+
+/* HOW TO USE
+
+ok so basically put your image in a div and add a class (or id) 
+and name that "gradient-overlay-container" 
+
+THEN for the class/id of the image itself do the same thing but
+have is as "gradient-effect" 
+
+You will use it as a class or ID depending of you use the effect 
+more then once per page
+
+IF you use a class and your image already has a class then simply
+add the class name after the first with a space inbetween
+
+IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
+
+.gradient-overlay-container, #gradient-overlay-container {
+    position: relative;
+    overflow: hidden;  
+}
+
+.gradient-effect, #gradient-effect {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gradient-overlay-container::before, #gradient-overlay-container::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgba(209, 209, 209, 0.24)); /* Gradient */
+    pointer-events: none;
+}
+
+/* image gradient effect end  */
+
+
+
 /* CONNOR */
     
 #about-us-container > div > img {
@@ -120,34 +164,10 @@ section.footercontent { /* holds the actual links */
     flex-wrap: wrap;
 }
 
-
-
-/* hero image gradient */
-
-#gradient-overlay-container {
-    position: relative;
+#Hero-Car-Image {
     width: 100%;
     height: 350px;
-    overflow: hidden;  
 }
-
-#gradient-effect {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#gradient-overlay-container::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgba(209, 209, 209, 0.24)); /* Gradient */
-    pointer-events: none;
-}
-/* hero image gradient end */
 
 /* CONNOR END */
 
@@ -185,9 +205,7 @@ section.footercontent { /* holds the actual links */
 
 
 /* ADAM */
-.img{
 
-}
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
     display: flex;
@@ -199,10 +217,7 @@ section.footercontent { /* holds the actual links */
     background-color: black;
     position: absolute;
 }
-img{
-    object-fit: cover;
-    display: inline-block;
-}
+
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
