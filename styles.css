@@ -112,22 +112,29 @@ section.footercontent { /* holds the actual links */
 /* FABIAN */
 #account-background {
     background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
 }
 
 .accountpages {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .textpagecolor {
     color: black;
 }
 
-#account-signin {
-    
+#signin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#create-account {
-
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .account-buttons {
