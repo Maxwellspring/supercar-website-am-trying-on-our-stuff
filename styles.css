@@ -183,6 +183,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     background-color: #d9d9d9;
     display: flex;
     flex-direction: row;
+    
 }
 
 .accountpages {
@@ -220,13 +221,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
 }
-.gradient{
-    height: 131px;
-    width: 150px;
-    background-color: black;
-    position: absolute;
+.gradient-overlay-container .gradient-effect{
+    
 }
-
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
@@ -259,6 +256,16 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     filter: brightness(75%);
 }
 
+.Merchandise{
+    display: flex;
+    color: white;
+    transform: translate(25%, 5%);
+    flex-direction: column;
+}
+
+/* .Merchandise .p{
+    display: flex;
+} */
 
 /* ADAM END */
 
