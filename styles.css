@@ -178,7 +178,13 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     background-color: #d9d9d9;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+}
+
+#profile-description {
+    color: black;
+    display: flex;
+    justify-content:right;
 }
 
 .accountpages {
