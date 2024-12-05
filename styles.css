@@ -140,8 +140,8 @@ section.footercontent { /* holds the actual links */
 
 
 /* ADAM */
-.H2{
-    color: #ffffff;
+h2{
+    color: white;
 }
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
