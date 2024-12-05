@@ -169,12 +169,31 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 /* FABIAN */
-#account-pages {
-
+#account-background {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
 }
 
-#account-signin {
+.accountpages {
+    display: flex;
+    flex-direction: column;
+}
 
+.textpagecolor {
+    color: black;
+}
+
+#signin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .sign-in {
@@ -185,7 +204,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 /* ADAM */
-
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
     display: flex;
@@ -201,21 +219,21 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
-.GraphicBlackT{
+.GraphicBlackt{
     position:relative;
     width: 50%;
     width: 200px;
     height: auto;
 }
 
-.GraphicBlackT .btn{
+.GraphicBlackt .shop{
     display:flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-self: flex-end;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(30%, 30%);
+    transform: translate(25%, 90%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(148, 148, 148);
     color: #ffffff;
@@ -224,12 +242,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 150px;
 }
 
-.GraphicBlackT .btn:hover{
+.GraphicBlackt .shop:hover{
     filter: brightness(75%);
 }
+
 
 /* ADAM END */
 
