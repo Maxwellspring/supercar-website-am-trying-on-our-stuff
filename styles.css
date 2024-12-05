@@ -201,8 +201,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: flex-start;
 }
 
-.sign-in {
-    background-color: red;
+.account-buttons {
+    background-color: #780530;
+    color: white;
 }
 /* FABIAN END */
 
