@@ -10,6 +10,10 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-image: linear-gradient(rgb(2 13 29), rgb(34 65 110));
 }
@@ -20,6 +24,7 @@ nav {
     align-items: center;
     background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
     height: 164px;
+    min-width: 1302.41px;
 }
 
 .navtext > a {
@@ -68,7 +73,7 @@ footer {
     margin-block-end: 0%;
     margin: 0%;
     color:#ffffff;
-    min-width: 860px;
+    min-width: 1302.41px;
 }
 
 div#links { /* holds the boxes of links */
@@ -178,7 +183,13 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     background-color: #d9d9d9;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+}
+
+#profile-description {
+    color: black;
+    display: flex;
+    justify-content:right;
 }
 
 .accountpages {
