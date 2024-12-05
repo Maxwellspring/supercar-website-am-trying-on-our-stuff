@@ -121,6 +121,9 @@ section.footercontent { /* holds the actual links */
 
 
 /* ADAM */
+.H2{
+    color: #ffffff;
+}
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
     display: flex;
@@ -139,21 +142,21 @@ img{
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
-.GraphicBlackTe{
+.GraphicBlackt{
     position:relative;
     width: 50%;
     width: 200px;
     height: auto;
 }
 
-.GraphicBlackTe .shop{
+.GraphicBlackt .shop{
     display:flex;
     flex-direction: row-reverse;
     align-self: flex-end;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(25%, 90%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(148, 148, 148);
     color: #ffffff;
@@ -164,7 +167,7 @@ img{
     border-radius: 5px;
 }
 
-.GraphicBlackTe .shop:hover{
+.GraphicBlackt .shop:hover{
     filter: brightness(75%);
 }
 
