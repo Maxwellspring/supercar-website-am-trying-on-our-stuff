@@ -16,6 +16,13 @@ a {
 
 body {
     background-image: linear-gradient(rgb(2 13 29), rgb(34 65 110));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 nav {
@@ -68,12 +75,13 @@ nav {
 
 footer {
     margin-top: auto;
-    background-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
+    background-image: linear-gradient(rgb(24, 46, 79), rgb(9, 20, 37));
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin: 0%;
     color:#ffffff;
     min-width: 1302.41px;
+    justify-content: flex-end;
 }
 
 div#links { /* holds the boxes of links */
@@ -151,21 +159,32 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 /* CONNOR */
-    
-#about-us-container > div > img {
-    width: 200px;
-}
 
 #about-us-container {
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
-.about-us-smaller-images {
+#about-us-big-image {
+    min-width: 50%;
+}
 
+#about-us-big-image > img {
+    width: 455px;
+    height: 750px;
+}
+
+#about-us-smaller-images {
+    min-width: 50%;
     border-width: 10px;
     display: flex;
     flex-wrap: wrap;
+}
+
+#about-us-smaller-images > img {
+    width: 400px;
+    height: 300px;
 }
 
 #Hero-Car-Image {
@@ -245,14 +264,20 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
 }
-.gradient-overlay-container .gradient-effect{
-    
-}
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
 .Whiteshirtgirl{
-    width:  width="200px" height="165px";
+    max-width: 200px;
+    max-height: 165px;
+}
+.Hoodie{
+    max-width: 200px;
+    max-height: 165px;
+}
+.Phonecase{
+    max-width: 200px;
+    max-height: 165px;
 }
 .GraphicBlackt{
     position:relative;
@@ -264,22 +289,25 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .GraphicBlackt .shop{
     display:flex;
     flex-direction: row-reverse;
+    transition: .2s;
     align-self: flex-end;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(25%, 90%);
+    transform: translate(-50%, 100%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(148, 148, 148);
     color: #ffffff;
-    font-size: 10px;
-    padding: 12px 24px;
+    font-size: 16px;
+    padding: 6px 60px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .GraphicBlackt .shop:hover{
+    border-radius: 20px;
+
     filter: brightness(75%);
 }
 
@@ -288,6 +316,42 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     color: white;
     transform: translate(25%, 5%);
     flex-direction: column;
+}
+
+.About{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ transform: translate(1%, 5%);
+ flex-direction: column;
+}
+.About .p
+.About{
+    background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
+    display: flex;
+    flex-direction: row;
+}
+.Aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    transform: translate(0%, -85%);
+}
+.Brent{
+    width:200px;
+    height: 165px;
+}
+.Nancy{
+    max-width: 200px;
+    max-height: 165px;
+}
+.Quinton{
+    max-width: 200px;
+    max-height: 165px;
+}
+.Romeo{
+    max-width: 200px;
+    max-height: 165px;
 }
 
 /* .Merchandise .p{
