@@ -222,6 +222,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
+.Whiteshirtgirl{
+    width:  width="200px" height="165px";
+}
 .GraphicBlackt{
     position:relative;
     width: 50%;
