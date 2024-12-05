@@ -7,6 +7,11 @@
 * {
     margin: 0;
     font-family: Poppins;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(rgb(2 13 29), rgb(34 65 110));
 }
 
 nav {
