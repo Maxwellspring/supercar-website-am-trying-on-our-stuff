@@ -7,11 +7,6 @@
 * {
     margin: 0;
     font-family: Poppins;
-    color: white;
-}
-
-body {
-    background-image: linear-gradient(rgb(2 13 29), rgb(34 65 110));
 }
 
 nav {
@@ -20,7 +15,6 @@ nav {
     align-items: center;
     background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
     height: 164px;
-    min-width: 1302.41px;
 }
 
 .navtext > a {
@@ -148,6 +142,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* CONNOR */
     
+<<<<<<< HEAD
 #about-us-container > div > img {
     width: 200px;
 }
@@ -168,44 +163,35 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width: 100%;
     height: 350px;
 }
+=======
+    /* yeeeee */
+>>>>>>> 75811f982327b9485efbfa4e1449858f9c6e049a
 
 /* CONNOR END */
 
 
 
 /* FABIAN */
-#account-background {
-    background-color: #d9d9d9;
-}
+#account-pages {
 
-.accountpages {
-    
-}
-
-.textpagecolor {
-    color: black;
 }
 
 #account-signin {
-    
-}
-
-#create-account {
 
 }
 
-.account-buttons {
-    background-color: #780530; 
-    border-color: #780530;
-    border-radius: 10px;
-    border-style: solid;
+.sign-in {
+    background-color: red;
 }
 /* FABIAN END */
 
 
 
 /* ADAM */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75811f982327b9485efbfa4e1449858f9c6e049a
 .Clothing{
     background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
     display: flex;
@@ -221,21 +207,21 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
 }
-.Container{
+.GraphicBlackT{
     position:relative;
     width: 50%;
-}
-
-.Container img{
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
-.Container .btn{
+.GraphicBlackT .btn{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-end;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-80%, -80%);
+    transform: translate(30%, 30%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(148, 148, 148);
     color: #ffffff;
@@ -244,12 +230,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 150px;
 }
 
-.Container .btn:hover{
-    background-color: #141414;
+.GraphicBlackT .btn:hover{
+    filter: brightness(75%);
 }
-
 
 /* ADAM END */
 
