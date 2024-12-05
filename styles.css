@@ -213,9 +213,27 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: flex-start;
 }
 
+#style-checkbox {
+    
+}
+
+#label-checkbox {
+    color: black;
+}
+
+#inputtext {
+    color: black;
+    height: 40px;
+    width: 705px;
+}
+
 .account-buttons {
     background-color: #780530;
     color: white;
+    width: 705px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgba(152, 38, 38, 0);
 }
 /* FABIAN END */
 
