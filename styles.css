@@ -203,7 +203,8 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+    padding-top: 60px;
+    }
 
 #account-body-page {
     
@@ -214,6 +215,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     height: 60px;
     width: 495px;
+    justify-content: space-between;
 }
 
 .accountpages {
@@ -231,21 +233,48 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     color: black;
 }
 
+#alignboxes {
+    
+}
+
 #signin {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 40px;
 }
 
 #register {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+#inputtext {
+    color: black;
+    height: 40px;
+    width: 705px;
 }
 
 .account-buttons {
     background-color: #780530;
     color: white;
+    width: 705px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgba(152, 38, 38, 0);
+}
+
+#style-checkbox {
+    accent-color: #780530;
+    width: 16px;
+    height: 16px;
+}
+
+#label-checkbox {
+    color: black;
+    padding-bottom: 15px;
 }
 /* FABIAN END */
 
