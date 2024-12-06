@@ -205,15 +205,26 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     justify-content: space-evenly;
 }
 
+#account-body-page {
+    
+}
+
 #profile-description {
     color: black;
     display: flex;
-    justify-content:right;
+    height: 60px;
+    width: 495px;
 }
 
 .accountpages {
     display: flex;
     flex-direction: column;
+}
+
+.account-pages {
+    color: black;
+    height: 60px;
+    width: 495px;
 }
 
 .textpagecolor {
