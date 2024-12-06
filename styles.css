@@ -245,16 +245,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
 }
-.gradient-overlay-container .gradient-effect{
-    
-}
-
-/* #Whiteshirtgirl{
-    mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
-} */
-.Whiteshirtgirl{
+.Whiteshirtgirlt{
     width:200px;
-    height: 165px;px;
+    height: 165px;
 }
 .GraphicBlackt{
     position:relative;
