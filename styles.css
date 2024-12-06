@@ -164,9 +164,11 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
     margin: 10px;
+
 }
 
 #about-us-big-image {
+    justify-content: space-around;
     min-width: 50%;
 }
 
@@ -176,6 +178,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 #about-us-smaller-images {
+        justify-content: space-around;
     min-width: 50%;
     border-width: 10px;
     display: flex;
