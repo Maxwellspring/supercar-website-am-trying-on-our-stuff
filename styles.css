@@ -242,19 +242,19 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* ADAM */
 .Clothing{
-    background-image:  linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
     display: flex;
     flex-direction: row;
 }
 .gradient-overlay-container .gradient-effect{
     
 }
-#Whiteshirtgirl{
+
+/* #Whiteshirtgirl{
     mask-image: linear-gradient(rgb(29, 57, 99), rgb(14, 31, 56));
-}
+} */
 .Whiteshirtgirl{
     width:200px;
-    height:165px;
+    height: 165px;px;
 }
 .GraphicBlackt{
     position:relative;
@@ -309,7 +309,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    transform: translate(0%, -85%);
+    transform: translate(-1%, -85%);
 }
 .Brent{
     width:200px;
