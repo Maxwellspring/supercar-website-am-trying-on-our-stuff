@@ -384,9 +384,38 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     max-width: 200px;
     max-height: 165px;
 }
-/* .Merchandise .p{
-    display: flex;
-} */
 
+.Cars{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Blackwidow{
+    width: 790px;
+    height: 325px;
+    flex-shrink: 0;
+    padding-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+
+.Blackwidow:hover{
+    filter: brightness(75%);
+}
+
+.Nemesis{
+    width: 790px;
+    height: 325px;
+    flex-shrink: 0;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.Nemesis:hover{
+    filter: brightness(75%);
+}
 /* ADAM END */
 
