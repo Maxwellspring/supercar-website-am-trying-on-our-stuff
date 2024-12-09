@@ -295,7 +295,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 .GraphicBlackt{
     position:relative;
-    width: 50%;
     width: 200px;
     height: auto;
 }
@@ -409,5 +408,24 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .Nemesis:hover{
     filter: brightness(75%);
 }
+.Nemesisrr{
+    display:flex;
+    flex-direction:row;
+    padding-left: 500px;
+    margin-bottom: 100px;
+    width: 1180px;
+    height: 665px;
+    flex-shrink: 0;
+}
+
+.Shop{
+    width: 157px;
+    height: 36px;
+    flex-shrink: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    color: black;
+}
+
 /* ADAM END */
 
