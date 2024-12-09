@@ -194,6 +194,17 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width: 100%;
     height: 350px;
 }
+
+#Merch-Container-pg1 {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+}
+
+.Merch-items-pg1 {
+    width: 100px;
+    height: 100px;
+}
     /* yeeeee */
 
 /* CONNOR END */
