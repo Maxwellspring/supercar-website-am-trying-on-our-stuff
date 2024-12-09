@@ -288,14 +288,18 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     color: black;
 }
 /* Cart page */
-
-#continueshopping {
+#shoppingcartpage {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-#shoppingcart-page {
+
+#Whitetshirt {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    width: 590px;
+    height: 420px;
 }
 /* FABIAN END */
 
