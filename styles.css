@@ -299,14 +299,18 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     color: black;
 }
 /* Cart page */
-
-#continueshopping {
+#shoppingcartpage {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-#shoppingcart-page {
+
+#Whitetshirt {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    width: 590px;
+    height: 420px;
 }
 /* FABIAN END */
 
@@ -448,13 +452,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 .Shop{
+    color:black;
     width: 157px;
     height: 36px;
     flex-shrink: 0;
-    font-size: 16px;
     border-radius: 10px;
-    color: black;
+    background: #D9D9D9;
 }
-
 /* ADAM END */
 
