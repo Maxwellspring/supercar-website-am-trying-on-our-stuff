@@ -287,6 +287,16 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #label-checkbox {
     color: black;
 }
+/* Cart page */
+
+#continueshopping {
+    display: flex;
+    justify-content: flex-start;
+}
+#shoppingcart-page {
+    display: flex;
+    justify-content: flex-end;
+}
 /* FABIAN END */
 
 
