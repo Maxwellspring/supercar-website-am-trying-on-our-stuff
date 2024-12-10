@@ -467,7 +467,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     flex-shrink: 0;
 }
 
-.Shop{
+.Body{
     color:black;
     width: 157px;
     height: 36px;
@@ -475,5 +475,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     border-radius: 10px;
     background: #D9D9D9;
 }
+
+.Body 
 /* ADAM END */
 
