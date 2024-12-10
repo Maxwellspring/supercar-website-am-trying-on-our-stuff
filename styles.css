@@ -297,25 +297,54 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .Whitetshirt {
     display: flex;
     flex-direction: row;
-
+  
     width: 590px;
     height: 420px;
-    margin: 40px;
+    margin: 50px;
+}
+.cartboxes {
+    
 }
 
-#howmanywanted {
-    background-color: #780530;
+/* #howmanywanted {
+    background-color: #D9D9D9;
+    color: black;
     width: 60px;
     height: 45px;
-}
+} */
+
 #cartitemtitle {
    display: flex;
     justify-content:center;
 }
 
-#itemsummary {
+.itemsummary {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     color: black;
 }
+#packaging {
+    background-color: white;
+    width: 70px;
+    height: 75px;
+}
+
+.gifting {
+    background-color: #D9D9D9;
+    color: black;
+}
+#mail {
+    background-color: white;
+    width: 70px;
+    height: 75px;
+}
+#carticonimages {
+    display: flex;
+    flex-direction: column;
+}
+
 /* FABIAN END */
 
 
