@@ -8,6 +8,7 @@
     margin: 0;
     font-family: Poppins;
     color: white;
+    font-weight: normal;
 }
 
 a {
@@ -135,6 +136,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .gradient-overlay-container, #gradient-overlay-container {
     position: relative;
     overflow: hidden;  
+    margin: none;
 }
 
 .gradient-effect, #gradient-effect {
@@ -178,7 +180,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 #about-us-smaller-images {
-        justify-content: space-around;
+    justify-content: space-around;
     min-width: 50%;
     border-width: 10px;
     display: flex;
@@ -199,11 +201,25 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     width: auto;
     justify-content: space-around;
+    margin: 10px 0px 10px 0px;
 }
 
 .Merch-items-pg1 {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Merch-items-pg1 > img {
+    height: 445px;
+    width: 505px;
+
+}
+
+.Merch-items-pg1 > p {
+    position: absolute;
+    text-shadow: 5px 5px black;
+    font-size: 96px;
 }
     /* yeeeee */
 
