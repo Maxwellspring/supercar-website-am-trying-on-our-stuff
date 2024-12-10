@@ -435,12 +435,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     flex-direction:row;
     padding-left: 500px;
     margin-bottom: 100px;
-    width: 1180px;
+    width:4000px;
     height: 665px;
     flex-shrink: 0;
 }
 
-.Body{
+.Bodyt{
     color:black;
     width: 157px;
     height: 36px;
@@ -449,6 +449,14 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     background: #D9D9D9;
 }
 
-.Body 
+.Bodybtn:hover{
+    filter: brightness(75%);
+}
+
+.Bodybtn{
+    display:flex;
+    padding-left: 1200px;
+    
+}
 /* ADAM END */
 
