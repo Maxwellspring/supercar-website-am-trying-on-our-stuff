@@ -232,16 +232,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     max-width: 60%;
 }
 
-.About{
-        display: flex;
+#About{
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 10px;
     margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-direction: column;
 }
 
 
@@ -424,7 +420,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row-reverse;
     align-self: flex-end;
-    background-color: rgb(148, 148, 148);
+    background-image: linear-gradient(rgb(149, 149, 149), rgb(85, 85, 85));
     color: #ffffff;
     padding: 12px 24px;
     position: absolute;
@@ -456,9 +452,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width: fit-content;
 }
 
-.Brent{
-    height: 165px;
-}
+
 .Nancy{
     max-height: 165px;
 }
