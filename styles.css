@@ -209,9 +209,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: center;
 }
 
-.Merch-items-pg1 > img {
-    height: 445px;
-    width: 505px;
+.Merch-items-pg1 > a > img {
+    min-height: 445px;
+    min-width: 505px;
 }
 
 .Merch-items-pg1 > p {
