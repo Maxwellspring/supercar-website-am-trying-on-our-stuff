@@ -166,7 +166,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     flex-direction: row;
     margin: 10px;
-
 }
 
 #about-us-big-image {
@@ -213,7 +212,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .Merch-items-pg1 > img {
     height: 445px;
     width: 505px;
-
 }
 
 .Merch-items-pg1 > p {
@@ -451,28 +449,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     justify-content: flex-end;
     width: fit-content;
 }
-
-
-.Nancy{
-    max-height: 165px;
-}
-.Quinton{
-    max-height: 165px;
-}
-.kiefair{
-    max-width: 200px;
-    max-height: 165px;
-}
-.kiefair{
-    max-width: 200px;
-    max-height: 165px;
-}
-.Romeo{
-    max-height: 165px;
-}
-
-
-
 
 .Cars{
     display:flex;
