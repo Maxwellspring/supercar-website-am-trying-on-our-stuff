@@ -404,7 +404,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 #carticonimages {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
 }
 
 /* FABIAN END */
