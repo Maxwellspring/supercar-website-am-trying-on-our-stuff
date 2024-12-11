@@ -276,10 +276,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     padding-top: 60px;
     }
 
-#account-body-page {
-    
-}
-
 #profile-description {
     color: black;
     display: flex;
@@ -303,10 +299,6 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .textpagecolor {
     color: black;
     margin-top: 11px;
-}
-
-#alignboxes {
-    
 }
 
 #signin {
