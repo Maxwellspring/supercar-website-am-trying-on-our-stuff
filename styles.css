@@ -245,6 +245,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
+
+
+
 #Merch-Container-pg2 {
     display: flex;
     width: auto;
@@ -268,6 +271,37 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     text-shadow: 5px 5px black;
     font-size: 40px;
 }
+
+
+
+
+
+
+#Merch-Container-pg3 {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+}
+
+.Merch-items-pg3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Merch-items-pg3 > a > img {
+    max-height: 510px;
+    min-width: 320px;
+}
+
+.Merch-items-pg3 > p {
+    margin: 10px;
+    text-decoration: underline;
+
+}
+
 
 
 
@@ -593,6 +627,7 @@ height: 90px;
     width:4000px;
     height: 665px;
     flex-shrink: 0;
+    transition: .2s;
 }
 
 .Bodyt{
@@ -612,6 +647,72 @@ height: 90px;
     display:flex;
     padding-left: 1200px;
     
+}
+.NemesisRR{
+    display: flex;
+    width: 1059px;
+    height: 530px;
+}
+.config{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Hconfig{
+    display:flex;
+    padding-left:800px;
+}
+.Pconfig{
+    display:flex;
+    padding-top: 30px;
+    padding-left: 900px;
+}
+.Blackwidowconfig{
+    display:flex;
+    padding-top: 180px;
+    padding-left: 80px;
+    margin-bottom: 300px;
+    width:800px;
+    height:300px;
+    transition: .2s;
+}
+.Blackwidowconfig:hover{
+    filter: brightness(75%);
+}
+.Nemesisconfig{
+    display: flex;
+    padding-top: 0px;
+    padding-right: 30px;
+    margin-bottom: 300px;
+    width:800px;
+    height:500px;
+    transition: .2s;
+}
+.Nemesisconfig:hover{
+    filter: brightness(75%);
+}
+.Blackwidowpage{
+    display:flex;
+    padding-left: 400px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+.Buttonsconfig{
+    display:flex;
+    padding-top: 80px;
+    padding-left: 1300px;
+}
+.Btncon{
+    display:flex;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(30%,80%);
+}
+.Btncon:hover{
+    filter:brightness(75%)
 }
 /* ADAM END */
 
