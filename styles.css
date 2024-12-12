@@ -220,7 +220,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 .Merch-items-pg1 > a > img {
-    min-height: 445px;
+    max-height: 445px;
     min-width: 505px;
 }
 
