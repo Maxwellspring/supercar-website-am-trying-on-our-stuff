@@ -162,6 +162,17 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* CONNOR */
 
+#Merch-Men {
+    display: flex;
+    flex-direction: row;
+}
+
+#Menswear {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 300
+}
+
 #Merchandise > a, #about-us-text-container > a {
     text-decoration: underline;
     color: #D9D9D9;
