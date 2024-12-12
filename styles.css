@@ -245,6 +245,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
+
+
+
 #Merch-Container-pg2 {
     display: flex;
     width: auto;
@@ -268,6 +271,37 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     text-shadow: 5px 5px black;
     font-size: 40px;
 }
+
+
+
+
+
+
+#Merch-Container-pg3 {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+}
+
+.Merch-items-pg3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Merch-items-pg3 > a > img {
+    max-height: 510px;
+    min-width: 320px;
+}
+
+.Merch-items-pg3 > p {
+    margin: 10px;
+
+
+}
+
 
 
 
