@@ -162,6 +162,16 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* CONNOR */
 
+#Merchandise > a, #about-us-text-container > a {
+    text-decoration: underline;
+    color: #D9D9D9;
+    transition-duration: 0.2s;
+}
+
+#Merchandise > a:hover, #about-us-text-container > a:hover {
+    color: #780530;
+}
+
 #about-us-container {
     display: flex;
     flex-direction: row;
@@ -440,7 +450,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     filter: brightness(75%);
 }
 
-.Merchandise{
+#Merchandise{
     margin-left: 10px;
     display: flex;
     color: white;
