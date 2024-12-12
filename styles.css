@@ -520,6 +520,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width:4000px;
     height: 665px;
     flex-shrink: 0;
+    transition: .2s;
 }
 
 .Bodyt{
@@ -539,6 +540,72 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display:flex;
     padding-left: 1200px;
     
+}
+.NemesisRR{
+    display: flex;
+    width: 1059px;
+    height: 530px;
+}
+.config{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Hconfig{
+    display:flex;
+    padding-left:800px;
+}
+.Pconfig{
+    display:flex;
+    padding-top: 30px;
+    padding-left: 900px;
+}
+.Blackwidowconfig{
+    display:flex;
+    padding-top: 180px;
+    padding-left: 80px;
+    margin-bottom: 300px;
+    width:800px;
+    height:300px;
+    transition: .2s;
+}
+.Blackwidowconfig:hover{
+    filter: brightness(75%);
+}
+.Nemesisconfig{
+    display: flex;
+    padding-top: 0px;
+    padding-right: 30px;
+    margin-bottom: 300px;
+    width:800px;
+    height:500px;
+    transition: .2s;
+}
+.Nemesisconfig:hover{
+    filter: brightness(75%);
+}
+.Blackwidowpage{
+    display:flex;
+    padding-left: 400px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+.Buttonsconfig{
+    display:flex;
+    padding-top: 80px;
+    padding-left: 1300px;
+}
+.Btncon{
+    display:flex;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(30%,80%);
+}
+.Btncon:hover{
+    filter:brightness(75%)
 }
 /* ADAM END */
 
