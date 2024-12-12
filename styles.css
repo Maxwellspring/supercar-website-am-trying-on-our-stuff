@@ -342,18 +342,22 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 /* Cart page */
 #shoppingcartpage {
+
+}
+#cartlinks{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    position: relative;
+    right: 12%;
 }
 
-.Whitetshirt {
+#Whitetshirt {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    width: 590px;
-    height: 420px;
+    padding-left: 100px; 
+    width: 590px;  
+    height: 415px;
 
 }
 .cartboxes {
@@ -361,7 +365,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     height: 415px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    
 }
 .howmanywanted {
     background-color: #D9D9D9;
@@ -370,37 +374,74 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     height: 45px;
     display: flex;
     flex-direction: center;
-    
-}
-
-
-#cartitemtitle {
-   display: flex;
-    justify-content:center;
-}
-
-.itemsummary {
-    background-color: #D9D9D9;
-    display: flex;
-    flex-direction: row;
-
-    color: black;
+    padding-left: 15px;
 }
 #packaging {
     background-color: white;
     width: 70px;
     height: 75px;
 }
+#itemdetails {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 590px;
+    height: 410px;
+    position: relative;
+    right: -10px;
+}
+#itemdetails > p, h2 {
+    color: black;
+
+}
 
 .gifting {
     background-color: #D9D9D9;
     color: black;
     display: flex;
+
 }
-#mail {
-    background-color: white;
-    width: 70px;
-    height: 75px;
+#mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+#message {
+    background-color: #D9D9D9;
+    width: 1180px;
+    height: 90px;
+}
+#message > p {
+    color: black;
+}
+#mailimg{
+    background-color: #D9D9D9;
+    width: 120px;
+    height: 90px;
+}
+#pack {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding-bottom: 20px;
+padding-left: 100px;
+}
+#package{
+background-color: #D9D9D9;
+width: 120px;
+height: 90px;
+}
+#packaging{
+background-color: #D9D9D9;
+width: 1180px;
+height: 90px;
+}
+
+#packaging > p {
+    color: black;
+
 }
 #carticonimages {
     display: flex;
