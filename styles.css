@@ -335,15 +335,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 #checkout-top {
     margin: 50px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-#checkout-top-shifty-mcgee {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
 
 }
 
