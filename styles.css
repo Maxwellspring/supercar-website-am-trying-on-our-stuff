@@ -347,6 +347,10 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     justify-content: center;
 }
 
+#asian-dood {
+    height: 550px;
+}
+
 /* #checkout-top-shifty-mcgee > div {
     display: flex;
     flex-direction: row-reverse;
@@ -391,9 +395,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #clickable-stuff {
     display: flex;
     flex-direction: column;
-    justify-content:center
+    justify-content:center;
 
-    width: 33.33%;
+    /* width: 33.33%; */
     /* min-width: 350px */
 }
 
