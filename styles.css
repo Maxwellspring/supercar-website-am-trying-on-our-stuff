@@ -384,12 +384,32 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     margin-left: 10px;
 }
 
+#merchpar {
+    margin: 50px;
+}
 
+#clickable-stuff {
+    min-width: 350px
+}
 
+#clickable-stuff > h1, #clickable-stuff > p, #clickable-stuff > input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
 
+#one {
+    color: black;
+    width: 100px;
+}
 
+.make-underline, #make-underline {
+    text-decoration: underline;
+}
 
-
+#y > input {
+    accent-color: #780530;
+}
 
 
 
