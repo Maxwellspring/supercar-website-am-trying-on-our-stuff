@@ -332,6 +332,71 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
+
+#checkout-top {
+    margin: 50px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#checkout-top-shifty-mcgee {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+#checkout-top-shifty-mcgee > div {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#shirt-color-black {
+    accent-color: black;
+}
+
+#shirt-color-white {
+    accent-color: white;
+}
+
+#shirt-color-gray {
+    accent-color: gray;
+}
+
+#shirt-color-red {
+    accent-color: #780530;
+}
+
+#shirt-color-blue {
+    accent-color: #090086;
+}
+
+#make-buttons-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonn {
+    background-color: black;
+    border-style: none;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* yeeeee */
 
 /* homepage code */
