@@ -874,7 +874,50 @@ height: 90px;
 .Btncon:hover{
     filter:brightness(75%)
 }
-/* ADAM END */
+.bodyconfig{
+    display:flex;
+    color: black;
+    background-color: #d9d9d9;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+}
+.bodyconfig:hover{
+    filter:brightness(75%);
+    border-radius:20px;
+}
+.Blackwp{
+    display:flex;
+    padding-left: 500px;
+    padding-top: 70px;
+}
+
+.Blackwidow{
+    display:flex;
+    transform: translate(30%, 70%);
+    transition: .5s;
+    border-radius: 10px;
+}
+.Blackwidow:hover{
+    filter:brightness(75%);
+    border-radius: 20px;
+}
+.Nemesis{
+    display:flex;
+    transition: .5s;
+    border-radius:  10px;
+}
+.Nemesis:hover{
+    filter:brightness(75%);
+    border-radius: 20px;
+}
+.Blackwidowpage{
+    display:flex;
+    margin-top: 70px;
+}
+    /* ADAM END /
 
 
 
