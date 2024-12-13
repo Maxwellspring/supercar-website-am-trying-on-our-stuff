@@ -341,14 +341,17 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     justify-content: space-around;
 }
 
-
+#checkout-top-shifty-mcgee {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
 }
 
-#checkout-top-shifty-mcgee > div {
+/* #checkout-top-shifty-mcgee > div {
     display: flex;
     flex-direction: row-reverse;
 
-}
+} */
 
 #shirt-color-black {
     accent-color: black;
@@ -382,11 +385,16 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 #merchpar {
-    margin: 50px;
+    max-width: 33.33%;
 }
 
 #clickable-stuff {
-    min-width: 350px
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+
+    width: 33.33%;
+    /* min-width: 350px */
 }
 
 #clickable-stuff > h1, #clickable-stuff > p, #clickable-stuff > input {
