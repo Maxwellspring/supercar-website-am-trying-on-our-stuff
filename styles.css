@@ -160,6 +160,25 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CONNOR */
 
 
@@ -302,6 +321,13 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 }
 
+.no-underline {
+    text-decoration: none;
+}
+
+/* fail? ^ */
+
+
 
 
 
@@ -345,6 +371,24 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 /* CONNOR END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -478,10 +522,15 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     position: relative;
     right: -10px;
 }
-#itemdetails > p, h2 {
+
+/* minor error here, you decided to use a comma here and it in effect turns EVERY h2 to black text */
+
+ #itemdetails > p/*, h2*/ { 
     color: black;
 
 }
+
+/* the one above, commented out, please make it work how you need it and make it not affect others please */
 
 .gifting {
     background-color: #D9D9D9;
@@ -536,6 +585,23 @@ height: 90px;
 }
 
 /* FABIAN END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
