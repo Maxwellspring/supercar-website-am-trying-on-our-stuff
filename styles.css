@@ -883,10 +883,156 @@ height: 90px;
     border-radius: 10px;
     margin: 10px;
     transition: .2s;
+    transform: translate(1600%,  150%);
+}
+.Hoodconfig{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(600%,  350%);
+}
+.hood{
+    color: black;
+}
+.Hoodconfig:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+.Rimsconfig{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(1200%, 950%);
+}
+.rims{
+    color: black;
+}
+.Exaustconfig{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(1400%, 750%);
+}
+.exaust{
+    color: black;
+}
+.Exaustconfig:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+.Rimsconfig:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
 }
 .bodyconfig:hover{
     filter:brightness(75%);
     border-radius:20px;
+}
+.Btncon{
+    display:flex;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(30%,80%);
+}
+.Btncon:hover{
+    filter:brightness(75%)
+}
+.Bodyconfignemsis{
+    display:flex;
+    color: black;
+    background-color: #d9d9d9;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(1300%, 400%);
+}
+.Hoodconfign{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(750%, 500%);
+}
+.nemhood{
+    color: black;
+}
+.Hoodconfign:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+.Rimsconfign{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(900%, 1000%);
+}
+.nemrims{
+    color: black;
+}
+.Exaustconfign{
+    display:flex;
+    background-color: #d9d9d9;
+    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(1300%, 650%);
+}
+.nemexaust{
+    color: black;
+}
+.Exaustconfign:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+.Rimsconfign:hover{
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+.Bodyconfignemsis:hover{
+    filter:brightness(75%);
+    border-radius:20px;
+}
+.nembodyconfig{
+    color: black;
+}
+.NemesisRR{
+    display:flex;
+    padding-left: 600px;
+    width:500px;
+    height:600px;
+    margin-bottom: 100px;
 }
 .Blackwp{
     display:flex;
@@ -896,7 +1042,7 @@ height: 90px;
 
 .Blackwidow{
     display:flex;
-    transform: translate(30%, 70%);
+    transform: translate( 0%, 0%);
     transition: .5s;
     border-radius: 10px;
 }
