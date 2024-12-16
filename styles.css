@@ -619,7 +619,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* minor error here, you decided to use a comma here and it in effect turns EVERY h2 to black text */
 
- #itemdetails > p/*, h2*/ { 
+ #itemdetails > p, #itemdetails > h2 { 
     color: black;
 
 }
