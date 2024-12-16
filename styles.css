@@ -863,7 +863,7 @@ height: 90px;
     display: flex;
     padding-top: 0px;
     padding-right: 30px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     width:800px;
     height:500px;
     transition: .2s;
@@ -874,7 +874,7 @@ height: 90px;
 .Blackwidowpage{
     display:flex;
     padding-left: 400px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 .Buttonsconfig{
     display:flex;
@@ -892,9 +892,9 @@ height: 90px;
     transform: translate(30%,310%);
 }
 .body:hover{
-    filter:brightness(75%)
+    filter:brightness(75%);
+    border-radius: 20px;
 }
-<<<<<<< Updated upstream
 .bodyconfig{
     display:flex;
     color: black;
@@ -906,6 +906,8 @@ height: 90px;
     transition: .2s;
     transform: translate(1600%,  150%);
 }
+
+
 .Hoodconfig{
     display:flex;
     background-color: #d9d9d9;
@@ -1085,52 +1087,3 @@ height: 90px;
     margin-top: 70px;
 }
     /* ADAM END /
-=======
-.Hood{
-    display:flex;
-    color:black;
-    padding: 12px 24px;
-    border-radius: 10px;
-    transition: .2s;
-    transform: translate(480%,450%);
-}
-.hood:hover{
-    filter: brightness(75%);
-}
-.Rims{
-    display:flex;
-    color:black;
-    background-color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 10px;
-    transition: .2s;
-    transform: translate(1100%,980%);
-}
-.rims:hover{
-    filter: brightness(75%);
-}
-.NemesisRR{
-    display:flex;
-    flex-direction: row;
-    margin-top: -250px;
-    width:200px;
-    height:950px;
-    transform: translate(90%, 3%);
-}
-.Blackwidowbody{
-    display:flex;
-    padding-left: 500px;
-    margin-top: 40px;
-}
-
-/* ADAM END */
->>>>>>> Stashed changes
-
-
-
-
-
-
-
-
-
