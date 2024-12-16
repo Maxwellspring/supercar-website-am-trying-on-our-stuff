@@ -808,11 +808,6 @@ height: 90px;
     padding-left: 1200px;
     
 }
-.NemesisRR{
-    display: flex;
-    width: 1059px;
-    height: 530px;
-}
 .config{
     display:flex;
     flex-direction: row;
@@ -854,26 +849,27 @@ height: 90px;
 .Blackwidowpage{
     display:flex;
     padding-left: 400px;
-    padding-top: 0px;
     margin-bottom: 100px;
 }
 .Buttonsconfig{
     display:flex;
-    padding-top: 80px;
+    padding-top: 10px;
     padding-left: 1300px;
 }
-.Btncon{
+.body{
     display:flex;
     color:black;
+    background-color: #d9d9d9;
     padding: 12px 24px;
     border-radius: 10px;
     margin: 10px;
     transition: .2s;
-    transform: translate(30%,80%);
+    transform: translate(30%,310%);
 }
-.Btncon:hover{
+.body:hover{
     filter:brightness(75%)
 }
+<<<<<<< Updated upstream
 .bodyconfig{
     display:flex;
     color: black;
@@ -1064,6 +1060,46 @@ height: 90px;
     margin-top: 70px;
 }
     /* ADAM END /
+=======
+.Hood{
+    display:flex;
+    color:black;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: .2s;
+    transform: translate(480%,450%);
+}
+.hood:hover{
+    filter: brightness(75%);
+}
+.Rims{
+    display:flex;
+    color:black;
+    background-color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: .2s;
+    transform: translate(1100%,980%);
+}
+.rims:hover{
+    filter: brightness(75%);
+}
+.NemesisRR{
+    display:flex;
+    flex-direction: row;
+    margin-top: -250px;
+    width:200px;
+    height:950px;
+    transform: translate(90%, 3%);
+}
+.Blackwidowbody{
+    display:flex;
+    padding-left: 500px;
+    margin-top: 40px;
+}
+
+/* ADAM END */
+>>>>>>> Stashed changes
 
 
 
