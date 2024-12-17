@@ -566,9 +566,9 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     color: black;
 }
 /* Cart page */
-#shoppingcartpage {
 
-}
+
+
 #cartlinks{
     display: flex;
     flex-direction: row;
