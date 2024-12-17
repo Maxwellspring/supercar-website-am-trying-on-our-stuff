@@ -462,6 +462,10 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* homepage code end */
 
+#shoppingcartpage  {
+    display: flex;
+}
+
 
 
 /* CONNOR END */
@@ -601,11 +605,21 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     flex-direction: center;
     padding-left: 15px;
 }
+
 #packaging {
     background-color: white;
     width: 70px;
     height: 75px;
 }
+
+#packaging > b > h2 {
+    color: black;
+}
+
+#mail > section > b > h2 {
+    color: black;
+}
+
 #itemdetails {
     background-color: #D9D9D9;
     display: flex;
@@ -615,6 +629,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     height: 410px;
     position: relative;
     right: -10px;
+    padding: 10px;
 }
 
 /* minor error here, you decided to use a comma here and it in effect turns EVERY h2 to black text */
@@ -1086,4 +1101,5 @@ height: 90px;
     display:flex;
     margin-top: 70px;
 }
-    /* ADAM END /
+    /* ADAM END */
+
