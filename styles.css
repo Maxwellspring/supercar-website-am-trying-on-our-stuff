@@ -1106,5 +1106,10 @@ height: 90px;
     display:flex;
     margin-top: 70px;
 }
+.Blackwidowbody{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+}
     /* ADAM END */
 
