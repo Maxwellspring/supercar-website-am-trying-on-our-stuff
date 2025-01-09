@@ -1113,3 +1113,39 @@ height: 90px;
 }
     /* ADAM END */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* new horizons */
+
+    #Concierge-sec {
+        margin-left: 30px;
+        margin-top: 50px;
+        line-height: 70px;
+    }
+
+    #sick-images {
+        margin-top: 60px;
+        letter-spacing: 70px;
+    }
+
+    #sick-images > img  {
+        height: 40px;
+    }
