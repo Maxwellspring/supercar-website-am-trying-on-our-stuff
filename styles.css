@@ -1235,3 +1235,25 @@ height: 90px;
         display: flex;
         justify-content: center;
     }
+
+    #SCC {
+        display: flex;
+        margin: 40px;
+    }
+
+    #SCC > div > img{
+        width: 100%;
+    }
+
+    #SCC > section > p {
+        font-size: 30px;
+        line-height: 100px;
+    }
+
+    #SCC > section > h1 {
+        font-size: 50px;
+    }
+
+    #SCC > section{
+        width: 50%;
+    }
