@@ -35,7 +35,7 @@ nav {
     min-width: 1302.41px;
 }
 
-.navtext > a {
+.navtext>a {
     background-image: linear-gradient(rgb(103 7 43), rgb(129 4 50));
     height: 65px;
     align-items: center;
@@ -50,7 +50,7 @@ nav {
     font-size: 48px;
 }
 
-.navtext > a:hover {
+.navtext>a:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
@@ -80,34 +80,36 @@ footer {
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin: 0%;
-    color:#ffffff;
+    color: #ffffff;
     min-width: 1302.41px;
     justify-content: flex-end;
 }
 
-div#links { /* holds the boxes of links */
-    display: flex; 
-    justify-content: space-between; 
+div#links {
+    /* holds the boxes of links */
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    margin: auto; 
+    margin: auto;
     max-width: 1200px;
 }
 
-section.footercontent { /* holds the actual links */
+section.footercontent {
+    /* holds the actual links */
     width: 480px;
     height: auto;
     padding: 20px;
-    margin: 5px; 
+    margin: 5px;
     min-width: 400px;
     text-align: left;
 }
 
-.footercontent > a {
+.footercontent>a {
     color: rgb(0, 128, 255);
 }
 
-.footercontent > a:visited {
+.footercontent>a:visited {
     color: rgb(255, 0, 255);
 }
 
@@ -133,26 +135,30 @@ add the class name after the first with a space inbetween
 
 IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
-.gradient-overlay-container, #gradient-overlay-container {
+.gradient-overlay-container,
+#gradient-overlay-container {
     position: relative;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
-.gradient-effect, #gradient-effect {
+.gradient-effect,
+#gradient-effect {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
 }
 
-.gradient-overlay-container::before, #gradient-overlay-container::before {
+.gradient-overlay-container::before,
+#gradient-overlay-container::before {
     position: absolute;
     content: "";
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgba(209, 209, 209, 0.24)); /* Gradient */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.842), rgba(209, 209, 209, 0.24));
+    /* Gradient */
     pointer-events: none;
 }
 
@@ -188,13 +194,15 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
-#Merchandise > a, #about-us-text-container > a {
+#Merchandise>a,
+#about-us-text-container>a {
     text-decoration: underline;
     color: #D9D9D9;
     transition-duration: 0.2s;
 }
 
-#Merchandise > a:hover, #about-us-text-container > a:hover {
+#Merchandise>a:hover,
+#about-us-text-container>a:hover {
     color: #780530;
 }
 
@@ -209,7 +217,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     min-width: 50%;
 }
 
-#about-us-big-image > img {
+#about-us-big-image>img {
     width: 455px;
     height: 750px;
 }
@@ -222,7 +230,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     flex-wrap: wrap;
 }
 
-#about-us-smaller-images > img {
+#about-us-smaller-images>img {
     width: 400px;
     height: 300px;
 }
@@ -251,12 +259,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: center;
 }
 
-.Merch-items-pg1 > a > img {
+.Merch-items-pg1>a>img {
     max-height: 445px;
     min-width: 505px;
 }
 
-.Merch-items-pg1 > p {
+.Merch-items-pg1>p {
     position: absolute;
     text-shadow: 5px 5px black;
     font-size: 96px;
@@ -280,12 +288,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: center;
 }
 
-.Merch-items-pg2 > a > img {
+.Merch-items-pg2>a>img {
     max-height: 430px;
     min-width: 400px;
 }
 
-.Merch-items-pg2 > p {
+.Merch-items-pg2>p {
     position: absolute;
     text-shadow: 5px 5px black;
     font-size: 40px;
@@ -310,12 +318,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     align-items: flex-start;
 }
 
-.Merch-items-pg3 > a > img {
+.Merch-items-pg3>a>img {
     max-height: 510px;
     min-width: 320px;
 }
 
-.Merch-items-pg3 > p {
+.Merch-items-pg3>p {
     margin: 10px;
     text-decoration: underline;
 
@@ -395,13 +403,15 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #clickable-stuff {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
 
     /* width: 33.33%; */
     /* min-width: 350px */
 }
 
-#clickable-stuff > h1, #clickable-stuff > p, #clickable-stuff > input {
+#clickable-stuff>h1,
+#clickable-stuff>p,
+#clickable-stuff>input {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 30px;
@@ -412,11 +422,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width: 100px;
 }
 
-.make-underline, #make-underline {
+.make-underline,
+#make-underline {
     text-decoration: underline;
 }
 
-#y > input {
+#y>input {
     accent-color: #780530;
 }
 
@@ -426,7 +437,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 
 
-    /* yeeeee */
+/* yeeeee */
 
 /* homepage code */
 
@@ -437,7 +448,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     max-width: 60%;
 }
 
-#About{
+#About {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -446,12 +457,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 
-.Clothing > div > img {
+.Clothing>div>img {
     max-width: 200px;
     height: 165px;
 }
 
-#Aboutus > div > img {
+#Aboutus>div>img {
     max-width: 200px;
     height: 165px;
 }
@@ -462,7 +473,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* homepage code end */
 
-#shoppingcartpage  {
+#shoppingcartpage {
     display: flex;
 }
 
@@ -497,7 +508,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 60px;
-    }
+}
 
 #profile-description {
     color: black;
@@ -569,11 +580,12 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #label-checkbox {
     color: black;
 }
+
 /* Cart page */
 
 
 
-#cartlinks{
+#cartlinks {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -585,18 +597,20 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #Whitetshirt {
     display: flex;
     flex-direction: row;
-    padding-left: 100px; 
-    width: 590px;  
+    padding-left: 100px;
+    width: 590px;
     height: 415px;
 
 }
+
 .cartboxes {
     width: 590px;
     height: 415px;
     display: flex;
     flex-direction: row;
-    
+
 }
+
 .howmanywanted {
     background-color: #D9D9D9;
     color: black;
@@ -613,11 +627,11 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     height: 75px;
 }
 
-#packaging > b > h2 {
+#packaging>b>h2 {
     color: black;
 }
 
-#mail > section > b > h2 {
+#mail>section>b>h2 {
     color: black;
 }
 
@@ -635,7 +649,8 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 
 /* minor error here, you decided to use a comma here and it in effect turns EVERY h2 to black text */
 
- #itemdetails > p, #itemdetails > h2 { 
+#itemdetails>p,
+#itemdetails>h2 {
     color: black;
 
 }
@@ -653,76 +668,89 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
 
 }
-#mail{
+
+#mail {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 100px;
 }
+
 #message {
     background-color: #D9D9D9;
     width: 1180px;
     height: 90px;
 }
-#message > p {
+
+#message>p {
     color: black;
 }
-#mailimg{
+
+#mailimg {
     background-color: #D9D9D9;
     width: 120px;
     height: 90px;
 }
+
 #pack {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-padding-bottom: 20px;
-padding-left: 100px;
-}
-#package{
-background-color: #D9D9D9;
-width: 120px;
-height: 90px;
-}
-#packaging{
-background-color: #D9D9D9;
-width: 1180px;
-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    padding-left: 100px;
 }
 
-#packaging > p {
+#package {
+    background-color: #D9D9D9;
+    width: 120px;
+    height: 90px;
+}
+
+#packaging {
+    background-color: #D9D9D9;
+    width: 1180px;
+    height: 90px;
+}
+
+#packaging>p {
     color: black;
 
 }
+
 #carticonimages {
     display: flex;
     flex-direction: row;
 }
+
 #paymentsummary {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-#paymentimages {
 
-}
+#paymentimages {}
+
 #paymentbutton {
     background-color: #780530;
     border-radius: 30px;
     width: 320px;
     height: 30px;
 }
+
 #shippingicon {
     background-color: #D9D9D9;
 }
+
 #returnsicon {
     background-color: #D9D9D9;
-    width:85px; 
-    height:65px;
+    width: 85px;
+    height: 65px;
 }
+
 #giftingicon {
     background-color: #D9D9D9;
 }
+
 /* FABIAN END */
 
 
@@ -745,14 +773,14 @@ height: 90px;
 
 
 /* ADAM */
-.Clothing{
+.Clothing {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
 }
 
 .GraphicBlackt {
-    display:flex;
+    display: flex;
     flex-direction: row-reverse;
 }
 
@@ -769,11 +797,11 @@ height: 90px;
     transition: .2s;
 }
 
-.GraphicBlackt .shop:hover{
+.GraphicBlackt .shop:hover {
     filter: brightness(75%);
 }
 
-#Merchandise{
+#Merchandise {
     margin-left: 10px;
     display: flex;
     color: white;
@@ -781,24 +809,24 @@ height: 90px;
 }
 
 #about-us-text-container {
-    width:fit-content;
+    width: fit-content;
     justify-content: flex-start;
 }
 
-#Aboutus{
+#Aboutus {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: fit-content;
 }
 
-.Cars{
-    display:flex;
+.Cars {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.Blackwidow{
+.Blackwidow {
     width: 790px;
     height: 325px;
     flex-shrink: 0;
@@ -808,11 +836,11 @@ height: 90px;
     border-radius: 25px;
 }
 
-.Blackwidow:hover{
+.Blackwidow:hover {
     filter: brightness(75%);
 }
 
-.Nemesis{
+.Nemesis {
     width: 790px;
     height: 325px;
     flex-shrink: 0;
@@ -821,22 +849,23 @@ height: 90px;
     margin-bottom: 100px;
 }
 
-.Nemesis:hover{
+.Nemesis:hover {
     filter: brightness(75%);
 }
-.Nemesisrr{
-    display:flex;
-    flex-direction:row;
+
+.Nemesisrr {
+    display: flex;
+    flex-direction: row;
     padding-left: 500px;
     margin-bottom: 100px;
-    width:4000px;
+    width: 4000px;
     height: 665px;
     flex-shrink: 0;
     transition: .2s;
 }
 
-.Bodyt{
-    color:black;
+.Bodyt {
+    color: black;
     width: 157px;
     height: 36px;
     flex-shrink: 0;
@@ -844,112 +873,127 @@ height: 90px;
     background: #D9D9D9;
 }
 
-.Bodybtn:hover{
+.Bodybtn:hover {
     filter: brightness(75%);
 }
 
-.Bodybtn{
-    display:flex;
+.Bodybtn {
+    display: flex;
     padding-left: 1200px;
-    
+
 }
-.config{
-    display:flex;
+
+.config {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.Hconfig{
-    display:flex;
-    padding-left:800px;
+
+.Hconfig {
+    display: flex;
+    padding-left: 800px;
 }
-.Pconfig{
-    display:flex;
+
+.Pconfig {
+    display: flex;
     padding-top: 30px;
     padding-left: 900px;
 }
-.Blackwidowconfig{
-    display:flex;
+
+.Blackwidowconfig {
+    display: flex;
     padding-top: 180px;
     padding-left: 80px;
     margin-bottom: 300px;
-    width:800px;
-    height:300px;
+    width: 800px;
+    height: 300px;
     transition: .2s;
 }
-.Blackwidowconfig:hover{
+
+.Blackwidowconfig:hover {
     filter: brightness(75%);
 }
-.Nemesisconfig{
+
+.Nemesisconfig {
     display: flex;
     padding-top: 0px;
     padding-right: 30px;
     margin-bottom: 200px;
-    width:800px;
-    height:500px;
+    width: 800px;
+    height: 500px;
     transition: .2s;
 }
-.Nemesisconfig:hover{
+
+.Nemesisconfig:hover {
     filter: brightness(75%);
 }
-.Blackwidowpage{
-    display:flex;
+
+.Blackwidowpage {
+    display: flex;
     padding-left: 400px;
     padding-bottom: 100px;
 }
-.Buttonsconfig{
-    display:flex;
+
+.Buttonsconfig {
+    display: flex;
     padding-top: 10px;
     padding-left: 1300px;
 }
-.body{
-    display:flex;
-    color:black;
-    background-color: #d9d9d9;
-    padding: 12px 24px;
-    border-radius: 10px;
-    margin: 10px;
-    transition: .2s;
-    transform: translate(30%,310%);
-}
-.body:hover{
-    filter:brightness(75%);
-    border-radius: 20px;
-}
-.bodyconfig{
-    display:flex;
+
+.body {
+    display: flex;
     color: black;
     background-color: #d9d9d9;
     padding: 12px 24px;
-    position: absolute;
     border-radius: 10px;
     margin: 10px;
     transition: .2s;
-    transform: translate(1600%,  150%);
+    transform: translate(30%, 310%);
 }
 
-
-.Hoodconfig{
-    display:flex;
-    background-color: #d9d9d9;
-    color:black;
-    padding: 12px 24px;
-    position: absolute;
-    border-radius: 10px;
-    margin: 10px;
-    transition: .2s;
-    transform: translate(600%,  350%);
-}
-.hood{
-    color: black;
-}
-.Hoodconfig:hover{
+.body:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.Rimsconfig{
-    display:flex;
+
+.bodyconfig {
+    display: flex;
+    color: black;
     background-color: #d9d9d9;
-    color:black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(1600%, 150%);
+}
+
+
+.Hoodconfig {
+    display: flex;
+    background-color: #d9d9d9;
+    color: black;
+    padding: 12px 24px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    transform: translate(600%, 350%);
+}
+
+.hood {
+    color: black;
+}
+
+.Hoodconfig:hover {
+    filter: brightness(75%);
+    border-radius: 20px;
+}
+
+.Rimsconfig {
+    display: flex;
+    background-color: #d9d9d9;
+    color: black;
     padding: 12px 24px;
     position: absolute;
     border-radius: 10px;
@@ -957,13 +1001,15 @@ height: 90px;
     transition: .2s;
     transform: translate(1200%, 950%);
 }
-.rims{
+
+.rims {
     color: black;
 }
-.Exaustconfig{
-    display:flex;
+
+.Exaustconfig {
+    display: flex;
     background-color: #d9d9d9;
-    color:black;
+    color: black;
     padding: 12px 24px;
     position: absolute;
     border-radius: 10px;
@@ -971,35 +1017,42 @@ height: 90px;
     transition: .2s;
     transform: translate(1400%, 750%);
 }
-.exaust{
+
+.exaust {
     color: black;
 }
-.Exaustconfig:hover{
+
+.Exaustconfig:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.Rimsconfig:hover{
+
+.Rimsconfig:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.bodyconfig:hover{
-    filter:brightness(75%);
-    border-radius:20px;
+
+.bodyconfig:hover {
+    filter: brightness(75%);
+    border-radius: 20px;
 }
-.Btncon{
-    display:flex;
-    color:black;
+
+.Btncon {
+    display: flex;
+    color: black;
     padding: 12px 24px;
     border-radius: 10px;
     margin: 10px;
     transition: .2s;
-    transform: translate(30%,80%);
+    transform: translate(30%, 80%);
 }
-.Btncon:hover{
-    filter:brightness(75%)
+
+.Btncon:hover {
+    filter: brightness(75%)
 }
-.Bodyconfignemsis{
-    display:flex;
+
+.Bodyconfignemsis {
+    display: flex;
     color: black;
     background-color: #d9d9d9;
     padding: 12px 24px;
@@ -1009,10 +1062,11 @@ height: 90px;
     transition: .2s;
     transform: translate(1300%, 400%);
 }
-.Hoodconfign{
-    display:flex;
+
+.Hoodconfign {
+    display: flex;
     background-color: #d9d9d9;
-    color:black;
+    color: black;
     padding: 12px 24px;
     position: absolute;
     border-radius: 10px;
@@ -1020,17 +1074,20 @@ height: 90px;
     transition: .2s;
     transform: translate(750%, 500%);
 }
-.nemhood{
+
+.nemhood {
     color: black;
 }
-.Hoodconfign:hover{
+
+.Hoodconfign:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.Rimsconfign{
-    display:flex;
+
+.Rimsconfign {
+    display: flex;
     background-color: #d9d9d9;
-    color:black;
+    color: black;
     padding: 12px 24px;
     position: absolute;
     border-radius: 10px;
@@ -1038,13 +1095,15 @@ height: 90px;
     transition: .2s;
     transform: translate(900%, 1000%);
 }
-.nemrims{
+
+.nemrims {
     color: black;
 }
-.Exaustconfign{
-    display:flex;
+
+.Exaustconfign {
+    display: flex;
     background-color: #d9d9d9;
-    color:black;
+    color: black;
     padding: 12px 24px;
     position: absolute;
     border-radius: 10px;
@@ -1052,67 +1111,79 @@ height: 90px;
     transition: .2s;
     transform: translate(1300%, 650%);
 }
-.nemexaust{
+
+.nemexaust {
     color: black;
 }
-.Exaustconfign:hover{
+
+.Exaustconfign:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.Rimsconfign:hover{
+
+.Rimsconfign:hover {
     filter: brightness(75%);
     border-radius: 20px;
 }
-.Bodyconfignemsis:hover{
-    filter:brightness(75%);
-    border-radius:20px;
+
+.Bodyconfignemsis:hover {
+    filter: brightness(75%);
+    border-radius: 20px;
 }
-.nembodyconfig{
+
+.nembodyconfig {
     color: black;
 }
-.NemesisRR{
-    display:flex;
+
+.NemesisRR {
+    display: flex;
     padding-left: 600px;
-    width:500px;
-    height:600px;
+    width: 500px;
+    height: 600px;
     margin-bottom: 100px;
 }
-.Blackwp{
-    display:flex;
+
+.Blackwp {
+    display: flex;
     padding-left: 500px;
     padding-top: 70px;
 }
 
-.Blackwidow{
-    display:flex;
-    transform: translate( 0%, 0%);
+.Blackwidow {
+    display: flex;
+    transform: translate(0%, 0%);
     transition: .5s;
     border-radius: 10px;
 }
-.Blackwidow:hover{
-    filter:brightness(75%);
+
+.Blackwidow:hover {
+    filter: brightness(75%);
     border-radius: 20px;
 }
-.Nemesis{
-    display:flex;
+
+.Nemesis {
+    display: flex;
     transition: .5s;
-    border-radius:  10px;
+    border-radius: 10px;
 }
-.Nemesis:hover{
-    filter:brightness(75%);
+
+.Nemesis:hover {
+    filter: brightness(75%);
     border-radius: 20px;
 }
-.Blackwidowpage{
-    display:flex;
+
+.Blackwidowpage {
+    display: flex;
     margin-top: 70px;
 }
-.Blackwidowbody{
-    display:flex;
+
+.Blackwidowbody {
+    display: flex;
     justify-content: center;
     padding-top: 100px;
 }
-    /* ADAM END */
 
+/* ADAM END */
 
 
 
@@ -1133,193 +1204,195 @@ height: 90px;
 
 
 
-    /* new horizons */
 
-    #Concierge-sec {
-        margin-left: 30px;
-        margin-top: 50px;
-        line-height: 70px;
-    }
+/* new horizons */
 
-    #sick-images {
-        margin-top: 60px;
-        letter-spacing: 70px;
-    }
+#Concierge-sec {
+    margin-left: 30px;
+    margin-top: 50px;
+    line-height: 70px;
+}
 
-    #sick-images > img  {
-        height: 40px;
-    }
+#sick-images {
+    margin-top: 60px;
+    letter-spacing: 70px;
+}
 
+#sick-images>img {
+    height: 40px;
+}
 
 
-    
 
-    #OH-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
 
-        
-    }
 
-    .order-bar {
-        padding: 10px;
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #d9d9d9;
-        margin-bottom: 50px;
-        border-radius: 10px;
+#OH-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    }
 
-    .order-bar > div > img {
-        height: 151px;
-        margin-right: 10px;
-        border-radius: 10px;
-    }
+}
 
-    .order-bar > section > p:not(.OH-button > p), .order-bar > div > section > p {
-        font-size: 30px;
-        color: black;
-        line-height: 60px;
-    }
+.order-bar {
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin-bottom: 50px;
+    border-radius: 10px;
 
-    #special-boink {
-        display: flex;
-    }
+}
 
-    .order-bar > section:not(.OH-button) {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.order-bar>div>img {
+    height: 151px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
 
-    .OH-button {
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        width: 175px;
-        height: 70px;
-        transition-duration: .5s;
-    }
+.order-bar>section>p:not(.OH-button > p),
+.order-bar>div>section>p {
+    font-size: 30px;
+    color: black;
+    line-height: 60px;
+}
 
-    .OH-button:hover {
-        background-color: rgb(62, 62, 62);
-        border-radius: 15px;
-    }
+#special-boink {
+    display: flex;
+}
 
-    .OH-button > p {
+.order-bar>section:not(.OH-button) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-        color: white;
-    }
+.OH-button {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 175px;
+    height: 70px;
+    transition-duration: .5s;
+}
 
-    #order-history-containter {
-        display: flex;
-        width: 90%;
-    }
+.OH-button:hover {
+    background-color: rgb(62, 62, 62);
+    border-radius: 15px;
+}
 
-    #order-history {
-        font-size: 35px;
-
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    #qwwe {
-        display: flex;
-        justify-content: center;
-    }
-
-    #SCC {
-        display: flex;
-        margin: 40px;
-    }
-
-    #SCC > div > img{
-        width: 100%;
-    }
-
-    #SCC > section > p {
-        font-size: 30px;
-        line-height: 100px;
-    }
-
-    #SCC > section > h1 {
-        font-size: 50px;
-    }
-
-    #SCC > section{
-        width: 50%;
-    }
-
-
-
-
-
-
-
-    .AS-input {
-        height: 30px;
-        color: black;
-    }
-
-    .AS-input:checked {
-        background-color: #090086;
-    }
-
-    #AS-button {
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 125%;
-        height: 100%;
-        background-color: black;
-        transition-duration: .5s;
-    }
-
-    #AS-button:hover {
-        background-color: rgb(62, 62, 62);
-        border-radius: 15px;
-    }
-
-    #AS-holder {
-        font-size: 30px;
-        line-height: 70px;
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #AS-names {
-        display: flex;
-        flex-direction: row;  
-    }
-
-    .AS-boxes {
-        margin-right: 20%;
-        display: flex;
-        flex-direction: row;  
-    }
-
-    .AS-box-small {
-        margin-right: 20%;
-    }
-
-    #AS-password-box {
-        display: flex;
-    }
-
-    #AS-password {
-        width: 30%;
-    }
-
-    .line-spacing {
-        line-height: 100px;
-    }
+.OH-button>p {
+
+    color: white;
+}
+
+#order-history-containter {
+    display: flex;
+    width: 90%;
+}
+
+#order-history {
+    font-size: 35px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#qwwe {
+    display: flex;
+    justify-content: center;
+}
+
+#SCC {
+    display: flex;
+    margin: 40px;
+}
+
+#SCC>div>img {
+    width: 100%;
+}
+
+#SCC>section>p {
+    font-size: 30px;
+    line-height: 100px;
+}
+
+#SCC>section>h1 {
+    font-size: 50px;
+}
+
+#SCC>section {
+    width: 50%;
+}
+
+
+
+
+
+
+
+.AS-input {
+    height: 30px;
+    color: black;
+}
+
+.AS-input:checked {
+    background-color: #090086;
+}
+
+#AS-button {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125%;
+    height: 100%;
+    background-color: black;
+    transition-duration: .5s;
+}
+
+#AS-button:hover {
+    background-color: rgb(62, 62, 62);
+    border-radius: 15px;
+}
+
+#AS-holder {
+    font-size: 30px;
+    line-height: 70px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#AS-names {
+    display: flex;
+    flex-direction: row;
+}
+
+.AS-boxes {
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.AS-box-small {
+    margin-right: 20%;
+}
+
+#AS-password-box {
+    display: flex;
+}
+
+#AS-password {
+    width: 30%;
+}
+
+.line-spacing {
+    line-height: 100px;
+}
