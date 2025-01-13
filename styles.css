@@ -1257,3 +1257,69 @@ height: 90px;
     #SCC > section{
         width: 50%;
     }
+
+
+
+
+
+
+
+    .AS-input {
+        height: 30px;
+        color: black;
+    }
+
+    .AS-input:checked {
+        background-color: #090086;
+    }
+
+    #AS-button {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 125%;
+        height: 100%;
+        background-color: black;
+        transition-duration: .5s;
+    }
+
+    #AS-button:hover {
+        background-color: rgb(62, 62, 62);
+        border-radius: 15px;
+    }
+
+    #AS-holder {
+        font-size: 30px;
+        line-height: 70px;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #AS-names {
+        display: flex;
+        flex-direction: row;  
+    }
+
+    .AS-boxes {
+        margin-right: 20%;
+        display: flex;
+        flex-direction: row;  
+    }
+
+    .AS-box-small {
+        margin-right: 20%;
+    }
+
+    #AS-password-box {
+        display: flex;
+    }
+
+    #AS-password {
+        width: 30%;
+    }
+
+    .line-spacing {
+        line-height: 100px;
+    }
