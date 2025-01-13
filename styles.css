@@ -1340,6 +1340,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 .AS-input {
     height: 30px;
     color: black;
+    width: 500px;
 }
 
 .AS-input:checked {
@@ -1368,6 +1369,7 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     margin: 5%;
     display: flex;
     flex-direction: column;
+    margin-top: 4%;
 }
 
 #AS-names {
@@ -1376,7 +1378,8 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 .AS-boxes {
-    margin-right: 20%;
+    margin-right: 12%;
+    /* margin-left: 10%; */
     display: flex;
     flex-direction: row;
 }
@@ -1394,5 +1397,8 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 }
 
 .line-spacing {
-    line-height: 100px;
+}
+
+#account-settingg {
+    line-height: 200px;
 }
