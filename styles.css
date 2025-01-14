@@ -1402,3 +1402,29 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
 #account-settingg {
     line-height: 200px;
 }
+
+#CBW-holder {
+    height: 100%;
+    display: flex;
+}
+
+:root {
+    --sizing-this: 40px
+
+}
+
+#CBW-select-styling {
+    width: 100%;
+    padding: 0px var(--sizing-this) 0px var(--sizing-this);
+    justify-self: flex-start;
+    display: flex;
+    background-color: #710000;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CBW-select-styling-button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0f61aeb0;
+}
