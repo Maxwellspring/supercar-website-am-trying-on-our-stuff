@@ -1428,3 +1428,23 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     padding: 10px;
     background-color: #0f61aeb0;
 }
+
+#i-e-holder {
+    height: 100%;
+    display: flex;
+}
+
+.preboinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #093775d5;
+    height: 700px;
+    width: 400px;
+}
+
+.boinks {
+background-color: gray;
+border-radius: 10px;
+padding: 50px;
+}
