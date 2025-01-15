@@ -1448,3 +1448,8 @@ background-color: gray;
 border-radius: 10px;
 padding: 50px;
 }
+
+.shreash {
+    display: flex;
+    flex-direction: row;
+}
