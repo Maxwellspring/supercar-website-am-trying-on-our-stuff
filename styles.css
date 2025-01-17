@@ -1396,37 +1396,70 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     width: 30%;
 }
 
-.line-spacing {
-}
+.line-spacing {}
 
 #account-settingg {
     line-height: 200px;
 }
 
 #CBW-holder {
-    height: 100%;
     display: flex;
+    height: 100%;
+    width: 100vw;
+}
+
+#CBW-image-holder {
+    width: 100%;
+    height: 100%;
+}
+
+#bruh {
+    height: 1vh;
+
 }
 
 :root {
     --sizing-this: 40px
-
 }
 
 #CBW-select-styling {
-    width: 100%;
+    /* width: 100%;
     padding: 0px var(--sizing-this) 0px var(--sizing-this);
     justify-self: flex-start;
     display: flex;
     background-color: #710000;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(6, 47, 72), rgb(24, 46, 79));
+    height: 100%;
+    width: 10%;
+}
+
+#CBW-car-img {
+    display: flex;
+    width: 90%;
 }
 
 .CBW-select-styling-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(129 4 50), rgb(103 7 43));
     border-radius: 10px;
-    padding: 10px;
-    background-color: #0f61aeb0;
+    padding: 20px;
+    width: 70%;
+}
+
+.CBW-buttons-holders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
 }
 
 #i-e-holder {
@@ -1438,59 +1471,97 @@ IF ISSUE THEN DO NOT TOUCH THIS CODE FOR GODS SAKE*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #093775d5;
+    background-image: linear-gradient(rgb(6, 47, 72), rgb(24, 46, 79));
     height: 700px;
     width: 400px;
 }
 
 .boinks {
-background-color: gray;
-border-radius: 10px;
-padding: 50px;
+    background-image: linear-gradient(rgb(129 4 50), rgb(103 7 43));
+    border-radius: 10px;
+    padding: 50px;
 }
 
-.shreash {
+#shreash {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+#shresh-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.shresh-button-itself {
+    background-image: linear-gradient(rgb(129 4 50), rgb(103 7 43));
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#WYLTSTC {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#ooooo {
+    background-image: linear-gradient(rgb(24, 46, 79), rgb(4, 33, 51));
+}
+
+#CBWCP {
+    background-image: linear-gradient(rgb(4, 33, 51), rgb(24, 46, 79));
 }
 
 #red {
-    background-color: red;
+    background-color: rgb(173, 2, 2);
 }
 
 #orange {
-    background-color: orange;
+    background-color: rgb(216, 144, 8);
 }
+
 #yellow {
-    background-color: yellow;
+    background-color: rgb(216, 216, 2);
 }
+
 #green {
-    background-color: green;
+    background-color: rgb(3, 233, 3);
 }
 
 #cyan {
-    background-color: cyan;
+    background-color: rgb(18, 205, 205);
 }
 
 #blue {
-    background-color: blue;
+    background-color: rgb(4, 4, 182);
 }
 
 #purple {
-    background-color: purple;
+    background-color: rgb(156, 3, 199);
 }
 
 #pink {
-    background-color: pink;
+    background-color: rgb(255, 102, 153);
+}
+
+#PCABC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .boxx {
     width: 25%;
     height: 100px;
-    border: black;
-    border-width: 5px;
-    border-style: solid;
+    border-color: rgba(255, 0, 0, 0);
     cursor: pointer;
+    margin: 10px;
 }
 
 #hold-colors {
@@ -1508,11 +1579,20 @@ padding: 50px;
 
 #special-box {
     width: 100%;
-    background-image: linear-gradient(rgb(103 7 43), rgb(129 4 50));
+    background-image: linear-gradient(rgb(3, 31, 48), rgb(24, 46, 79));
 }
 
 #confirmation-button {
-    margin: 100px;
-    background-image: linear-gradient(rgb(14 81 123), rgb(6 47 72));
+    margin: 20px;
+    background-image: linear-gradient(rgb(129 4 50), rgb(103 7 43));
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 50px;
+}
 
+#holding-confirm-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
